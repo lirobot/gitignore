@@ -1,0 +1,57 @@
+﻿# git忽略通用文件
+
+# 项目内部文件夹
+/code
+
+# keil 编译文件
+*.lst
+*.map
+*.iex
+*.__i
+*.d
+*.crf
+*.o
+*.htm
+*.plg
+*.tra
+*.lnp
+
+# keil 项目多于文件
+*.uvgui.*
+*.uvopt
+*.dep
+
+# 通用文件
+*.axf
+*.hex
+*.bin
+*.exe
+*.bak
+*.xml
+
+#source insight 
+*.IAB
+*.IAD
+*.IMB
+*.IMD
+*.PFI
+*.PO
+*.PR
+*.PRI
+*.PS
+*.SearchResults
+*.WK3
+
+# 网页说明文件
+
+*.html
+
+# 忽略文件文件本身
+
+#.gitignore
+
+# RVDS
+
+*.aws
+*.brd
+*.auc
