@@ -2,24 +2,29 @@
 
 # 项目内部文件夹
 
-
 # keil 编译文件
 *.lst
 *.map
 *.iex
-*.__i
+*.*i
 *.d
 *.crf
 *.o
 *.htm
 *.plg
 *.tra
-*.lnp
+*.l*p
+*fed
 
-# keil 项目多于文件
+# keil 项目多余文件
 *.uvgui.*
 *.uvopt
 *.dep
+
+# keil 51编译文件
+*.A51
+*.OBJ
+*.M51
 
 # 通用文件
 *.axf
@@ -55,3 +60,4 @@
 *.aws
 *.brd
 *.auc
+
